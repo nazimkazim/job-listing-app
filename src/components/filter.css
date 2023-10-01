@@ -1,0 +1,61 @@
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 840px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    top: -30px;
+    border-radius: 10px;  
+  }
+  
+  .filter-container-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .filter-container-items div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .filter-buttons {
+    font-weight: bold;
+    padding: 7px 10px;
+    border: none; 
+    border-radius: 5px 0 0 5px;
+    color: rgb(98, 188, 156); 
+    background-color: rgb(223, 251, 251);
+    cursor: pointer;
+  }
+  
+  .filter-buttons-del {
+    padding: 0 5px;
+    border-radius: 0 5px 5px 0;
+    font-size: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(98, 188, 156);
+    cursor: pointer;
+  }
+  
+  .button-css {
+    margin: 0px 8px;
+  }
+  
+  .button-clear {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    border: none; 
+    color: rgb(98, 188, 156);
+    background-color: white;
+    cursor: pointer;
+  }
